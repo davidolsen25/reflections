@@ -9,5 +9,9 @@ How is the staging area different from the working directory and the repository?
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-	By using "git diff" to check the difference between the working directory and the staging area. Also, by
-	using "git diff --staged" to check the diff between the staging area and the Head commit.
+	By using "git diff" to check the difference between the working directory and the staging area. Also, by using "git diff --staged" to check the diff between the staging area and the Head commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	If I wanted to keep track of different versions of the code such as an experimental version or one in italian. Git branches could help to keep track of variations without changing the master branch.
+
