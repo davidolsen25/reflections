@@ -15,3 +15,7 @@ What are some situations when branches would be helpful in keeping your history 
 
 	If I wanted to keep track of different versions of the code such as an experimental version or one in italian. Git branches could help to keep track of variations without changing the master branch.
 
+How do the diagrams help you visualize the branch structure?
+
+	Diagrams help visualize the branch structure by showing the forks in the road.  The pathways back to an intersection as well as the pathways forward to a merge.
+
