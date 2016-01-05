@@ -23,3 +23,7 @@ What is the result of merging two branches together? Why do we represent it in t
 
 	The code of the two branches is combined into one branch with interwoven commits sorted by timestamp. We use git show to see a commit's parent entry. We represent the merge as an onramp to the final branch name in the diagram.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	The pro of automatic merging is that it potentially saves time and effort. The con of auto merge is that git may not correctly perceive issues related with merges ad may introduce a bug with a merge. Manual merging has the pro of being able to sort out problems that may arise with a merge, but it has the con of being laborious.
+
