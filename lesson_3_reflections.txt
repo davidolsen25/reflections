@@ -8,22 +8,30 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    You may not want to introduce changes from the remote to your code for security reasons. With manual pulls you can survey the commits before you pull them into your local repository.
+    You may not want to introduce changes from the remote to your code for security
+    reasons. With manual pulls you can survey the commits before you pull them into
+    your local repository.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Branches exist in any git scenario and are a record of the commits which travels back to the beginning along a path. A Clone can exist in a local repository or on a GitHub environment and is an exact copy of all brancheds and commits at a certain time. A Fork is a clone of a repository which exists on GitHub and points back to the original.
+    Branches exist in any git scenario and are a record of the commits which travels
+    back to the beginning along a path. A Clone can exist in a local repository or on
+    a GitHub environment and is an exact copy of all brancheds and commits at a certain
+    time. A Fork is a clone of a repository which exists on GitHub and points back to
+    the original.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    If you have it stored, you can see what changes anyone has made since you last fetched the remote "name/branch" by using git log or git diff.
+    If you have it stored, you can see what changes anyone has made since you last
+    fetched the remote "name/branch" by using git log or git diff.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Without Git and GitHub I would have to transfer large files back and forth and spend time describing in detail everything that needs work. Git is definitely easier than that.
+    Without Git and GitHub I would have to transfer large files back and forth and spend
+    time describing in detail everything that needs work. Git is definitely easier than that.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
